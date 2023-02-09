@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('DS\ Digital\ Fonts/DS-DIGI.TTF') format('truetype');
+  }
+
+body {
+    background-color: #CEE9F6;
+    font-family: 'Roboto';
+}
+
+.scoreboard-title {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.basketball-icon {
+    position: absolute;
+    top: 0px;
+    right: 35px;
+}
+
+.scoreboard {
+    background-color: #18244C;
+    border: 7px solid #C84242;
+    border-radius: 25px;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+    top: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.team-1, .team-2 {
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 65px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.team-1-p-1, .team-2-p-1 {
+    position: absolute;
+    margin: 0;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: white;
+}
+
+.team-1-p-1 {
+    left: 90px;
+}
+
+.team-2-p-1 {
+    right: 90px;
+}
+
+.team-1-p-2, .team-2-p-2 {
+    position: absolute;
+    margin: 0;
+    top: 75px;
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 75px;
+    color: #C84242;
+}
+
+.team-1-p-2 {
+    left: 115px;
+}
+
+.team-2-p-2 {
+    left: 350px;
+}
+
+.team-1-buttons, .team-2-buttons {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.team-1-buttons button, .team-2-buttons button {
+    margin: 115px 10px 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+  .time-counter {
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    top: 62px;
+    left: 88px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .min-1, .min-2, .sec-1, .sec-2 {
+    background-color: black;
+    width: 30px;
+    height: 35px;
+    position: relative;
+    font-size: 35px;
+    font-family: 'DS-Digital', sans-serif;
+    color: white;
+  }
+  
+  .min-1 p, .min-2 p, .sec-1 p, .sec-2 p {
+    position: absolute;
+    top: -35px;
+    left: 7px;
+  }
+  
+  .min-1 { margin-right: 3px; }
+  .min-2 { margin: 0 3px 5px; }
+  .sec-1 { margin-right: 3px; }
+  .sec-2 { margin: 0; }
+  
+  .interval {
+    background-color: transparent;
+    width: 10px;
+    height: 35px;
+    margin-right: 5px;
+    position: relative;
+  }
+  
+  .interval p {
+    color: black;
+    font-size: 42px;
+    position: absolute;
+    top: -52px;
+    left: 0px;
+  }
+  
+  .control-buttons {
+    position: relative;
+    margin: 0 auto;
+    top: 75px;
+    left: -105px;
+  }
+  
+  .starting-button, .reset-button {
+    background-color: #f5efeb;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #F47024 #C84242;
+    border-radius: 7px;
+    height: 55px;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+  }
+  
+  .starting-button {
+    margin-right: 5px;
+    width: 200px;
+  }
+  
+  .reset-button {
+    width: 90px;
+  }
+  

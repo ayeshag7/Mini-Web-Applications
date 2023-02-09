@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #E4E1EB;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-func {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    margin: 50px auto 50px;
+    font-size: 50px;
+    color: black;
+    border: 3px solid #90CBC6;
+    width: 450px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.button1 {
+    margin-bottom: 45px;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+    border-color: #90CBC6;
+    background-color: #FCD0BB;
+}
+
+.button2 {
+    margin-bottom: 25px;
+    border-radius: 3px;
+    width: 175px;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+    border-color: #F4D383;
+    background-color: #F6C2DF;
+}
+
+.button3 {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+    border-color: #f16868;
+    background-color: #c4e8f4;
+}
+
+.button4 {
+    margin-bottom: 10px;
+    border-radius: 3px;
+    width: 300px;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+    border-color: #C38370;
+    background-color: #F6EEE0;
+}
+
+.saved {
+    margin-bottom: 25px;
+    border-radius: 3px;
+    width: 175px;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+    border-color: white;
+    background-color: #32CD30;
+}
+
+.counts {
+    display: none;
+}
+
+.counts-displayed {
+    display: block;
+    font-size: 32px;
+}
+
+.animations-one {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.animations-two {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 0.7;
+}
