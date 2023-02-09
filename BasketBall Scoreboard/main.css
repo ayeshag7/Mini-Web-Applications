@@ -153,7 +153,7 @@ body {
     position: relative;
     margin: 0 auto;
     top: 75px;
-    left: -105px;
+    left: -15px;
   }
   
   .starting-button, .reset-button {
@@ -175,5 +175,16 @@ body {
   
   .reset-button {
     width: 90px;
+    margin-right: 10px;
   }
   
+  .announce-result {
+    display: None;
+  }
+
+  .announced-result {
+    display: inline;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+  }
