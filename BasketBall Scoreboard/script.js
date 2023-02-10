@@ -76,7 +76,11 @@ let min1 = document.getElementById("min-1");
     min2.textContent = 0;
     sec1.textContent = 0;
     sec2.textContent = 0;
+    minutes = 0;
+    seconds = 0;
     document.getElementById("team-1-p-2").textContent = 0;
     document.getElementById("team-2-p-2").textContent = 0;
+    document.getElementById("announce-result").classList.remove("announced-result");
+    document.getElementById("announce-result").classList.add("announce-result");
   });
   
