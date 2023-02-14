@@ -7,5 +7,6 @@ A simple Chrome extension.
 * Clear the saved urls.
 
 ## Preview
-<img width="859" alt="Screenshot 2023-02-14 105933" src="https://user-images.githubusercontent.com/106478752/218652406-f8d35748-a764-447e-b1b9-be46ac28b601.png">
+<img width="635" alt="Screenshot 2023-02-14 110425" src="https://user-images.githubusercontent.com/106478752/218653041-a12985ed-3086-46bc-aad2-8b412e641fcf.png">
+
 
